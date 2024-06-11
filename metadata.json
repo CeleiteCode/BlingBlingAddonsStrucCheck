@@ -2,6 +2,5 @@
   "name": "blingblingaddonsstruccheck",
   "creator": "celeite, blingbling",
   "description": "checks for structures",
-  "entry": "struccheck.js",
-  "requires": ["blingblingaddons"]
+  "entry": "struccheck.js"
 }
