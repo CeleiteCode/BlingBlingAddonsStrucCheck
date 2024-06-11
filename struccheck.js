@@ -233,7 +233,3 @@ function resetVars() {
     mapCreated = false;
     missingRoute = [];
 }
-function test() {
-console.log("i need this for settings to work")
-}
-export { test};
