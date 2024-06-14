@@ -20,6 +20,8 @@ This code is completely open source, however please note that it has <span style
 
 <h2 style="color: #00AA00;">Why Structure Check was added</h2>
 Structure Check was added to encourage people not to cheat/use more malicious mods which have structure check or esp, which may tempt them into malicious forms of mining such as macroing or grotto esp.  
+<br></br>
+
 > I also made this because I did not want people to rage and then download some super suspicious mod that will get them ratted or complain about why blingbling sapphire 24 vein was getting griefed.  
 > \- BlingBling
 
