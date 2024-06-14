@@ -1,7 +1,8 @@
 {
-  "name": "blingblingaddonsstruccheck",
-  "creator": "celeite, blingbling",
-  "description": "checks for structures",
-  "entry": "struccheck.js"
-
+    "name": "blingblingaddonsstruccheck",
+    "description": "addon for the BEST mod",
+    "creator": "Celeite, blingbling",
+    "version": "1.0",
+    "entry": "struccheck.js",
+    "requires": ["blingblingaddons"]
 }

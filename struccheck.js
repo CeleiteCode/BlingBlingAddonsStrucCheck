@@ -1,7 +1,7 @@
-import settings from 'blingblingaddons/settings/settings'
-import { findVein, genSphere, filterShape, getcoords, filterBlock, getInternalBlockAt } from "blingblingaddons/util/world";
-import { drawBlock, drawTrace, drawText } from 'blingblingaddons/util/render';
-import BlingPlayer from 'blingblingaddons/util/BlingPlayer';
+import settings from '../blingblingaddons/settings/settings'
+import { findVein, genSphere, filterShape, getcoords, filterBlock, getInternalBlockAt } from "../blingblingaddons/util/world";
+import { drawBlock, drawTrace, drawText } from '../blingblingaddons/util/render';
+import BlingPlayer from '../blingblingaddons/util/BlingPlayer';
 
 let route = [];
 
@@ -166,6 +166,17 @@ function loadRoute() {
     const clipboardData = clipboard.getData(DataFlavor.stringFlavor);
     try {
         route = JSON.parse(clipboardData);
+        if (!route.every(waypoint => {return waypoint.options?.hasOwnProperty("name")})) {
+            ChatLib.chat(`§d[BlingBling Addons] §fDetected DilloPro route. Converting to ColeWeight...`);
+            route = route.map((obj, index) => {
+                if (!obj.options) {
+                    obj.options = {};
+                }
+                obj.options.name = index + 1;
+                return obj;
+            });
+            exportRoute();
+        }
         ChatLib.chat("§d[BlingBling Addons] §fLoaded route!");
         return true;
     } catch (e) {
