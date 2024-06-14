@@ -8,7 +8,7 @@ $\color{#AA0000}{\textsf{All ChatTriggers modules must comply with Hypixel rules
 This feature was separated from the mod for people who do not intend to use it, and to ensure **BlingBling Addons** could be verified.
 
 ## Installation:
-1. Go to the [Releases]().
+1. Go to the [Releases](https://github.com/CeleiteCode/blingblingaddonsstruccheck/releases/latest).
 2. Unzip the file, you should have a folder called $\color{#FFAA00}{\textsf{blingblingaddonsstruccheck}}$
 3. Run $\color{#FFAA00}{\textsf{/ct files}}$ this should open the ChatTriggers folder
 4. Open the $\color{#FFAA00}{\textsf{modules}}$ folder
