@@ -2,7 +2,7 @@
     "name": "BlingBlingAddonsStrucCheck",
     "description": "addon for the BEST mod",
     "creator": "Celeite, blingbling",
-    "version": "1.0",
+    "version": "1.0.0",
     "entry": "struccheck.js",
     "requires": ["BlingBlingAddons"]
 }
