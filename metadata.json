@@ -1,8 +1,8 @@
 {
-    "name": "blingblingaddonsstruccheck",
+    "name": "BlingBlingAddonsStrucCheck",
     "description": "addon for the BEST mod",
     "creator": "Celeite, blingbling",
     "version": "1.0",
     "entry": "struccheck.js",
-    "requires": ["blingblingaddons"]
+    "requires": ["BlingBlingAddons"]
 }

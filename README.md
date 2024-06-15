@@ -2,17 +2,17 @@
 *Created by [BlingBling](https://github.com/blingblingdeveloper) and [Celeite](https://github.com/CeleiteCode)*
 
 ## Introduction:
-Structure Check is an addon for [BlingBling Addons](https://github.com/blingblingdeveloper/blingblingaddons).
+Structure Check is an addon for [BlingBling Addons](https://github.com/blingblingdeveloper/BlingBlingAddons).
 
 $\color{#AA0000}{\textsf{All ChatTriggers modules must comply with Hypixel rules to be verified.}}$  
 This feature was separated from the mod for people who do not intend to use it, and to ensure **BlingBling Addons** could be verified.
 
 ## Installation:
-1. Go to the [Releases](https://github.com/CeleiteCode/blingblingaddonsstruccheck/releases/latest).
-2. Unzip the file, you should have a folder called $\color{#FFAA00}{\textsf{blingblingaddonsstruccheck}}$
+1. Go to the [Releases](https://github.com/CeleiteCode/BlingBlingAddonsStrucCheck/releases/latest).
+2. Unzip the file, you should have a folder called $\color{#FFAA00}{\textsf{BlingBlingAddonsStrucCheck}}$
 3. Run $\color{#FFAA00}{\textsf{/ct files}}$ this should open the ChatTriggers folder
 4. Open the $\color{#FFAA00}{\textsf{modules}}$ folder
-5. Drag $\color{#FFAA00}{\textsf{blingblingaddonsstruccheck}}$ into the $\color{#FFAA00}{\textsf{modules}}$ folder
+5. Drag $\color{#FFAA00}{\textsf{BlingBlingAddonsStrucCheck}}$ into the $\color{#FFAA00}{\textsf{modules}}$ folder
 6. $\color{#FFAA00}{\textsf{/ct load}}$ to reload ChatTriggers
 
 This code is completely open source, however please note that it has $\color{#AA0000}{\textsf{not been verified}}$ by the ChatTriggers team and is $\color{#AA0000}{\textsf{against Hypixel rules}}$.

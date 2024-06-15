@@ -1,7 +1,7 @@
-import settings from '../blingblingaddons/settings/settings'
-import { findVein, genSphere, filterShape, getcoords, filterBlock, getInternalBlockAt } from "../blingblingaddons/util/world";
-import { drawBlock, drawTrace, drawText } from '../blingblingaddons/util/render';
-import BlingPlayer from '../blingblingaddons/util/BlingPlayer';
+import settings from '../BlingBlingAddons/settings/settings'
+import { findVein, genSphere, filterShape, getcoords, filterBlock, getInternalBlockAt } from "../BlingBlingAddons/util/world";
+import { drawBlock, drawTrace, drawText } from '../BlingBlingAddons/util/render';
+import BlingPlayer from '../BlingBlingAddons/util/BlingPlayer';
 
 let route = [];
 
